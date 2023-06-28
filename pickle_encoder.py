@@ -2,7 +2,6 @@ import glob
 import pickle
 
 import cv2
-import matplotlib.pyplot as plt
 
 
 class PickleEncoding:
