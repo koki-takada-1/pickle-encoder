@@ -32,7 +32,9 @@ maxsize = 600
 out_dir = "data"
 # pickleファイルの名前指定
 save_file = "/name.pickle"
+# 正方形の辺のサイズ指定
+size = 200
 
 pe = PickleEncoding(maxsize, out_dir, save_file)
-pe.resize_encoding(200)
+pe.resize_encoding(size)
 ```
