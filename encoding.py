@@ -1,4 +1,4 @@
-from pickle_encoding import PickleEncoding
+from pickle_encoder import PickleEncoding
 
 maxsize = 600
 out_dir = "data"
