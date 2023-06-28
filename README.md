@@ -23,8 +23,19 @@ pickle encoder for image classification
     ├── pyvenv.cfg
     └── share
 ```
-使い方
+## 使い方
 
+ターミナルで当該リポジトリをクローンし、リポジトリ内に存在する仮想環境を有効にする
+```bash
+git clone https://github.com/koki-takada-1/pickle-encoder.git
+. picklevenv/bin/actibate
+```
+opencvをインストール
+```
+pip install opencv-python
+```
+
+モジュールを以下のようにインポートして使う。
 ```python
 from pickle_encoder import PickleEncoding
 # 画像の枚数指定
