@@ -1,7 +1,10 @@
 # pickle-encoder
 pickle encoder for image classification
 
-### pickle encoderはラベルと画像データのペアとしてpickle形式で指定のディレクトリに保存してくれるモジュールである。用途としては、一からデータセットを作り、dlで画像分類などをするときに役立つ。
+### pickle encoderはラベルと画像データのペアとしてpickle形式で指定のディレクトリに保存してくれるモジュールである。
+
+用途としては、一からデータセットを作り、dlで画像分類などをするときに役立つ。
+
 ディレクトリ構造
 ```bash
 .
