@@ -28,7 +28,7 @@ pickle encoder for image classification
 ターミナルで当該リポジトリをクローンし、リポジトリ内に存在する仮想環境を有効にする
 ```bash
 git clone https://github.com/koki-takada-1/pickle-encoder.git
-. picklevenv/bin/actibate
+. picklevenv/bin/activate
 ```
 opencvをインストール
 ```
